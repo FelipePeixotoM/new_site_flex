@@ -1,0 +1,89 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background-image: url(/assets/img/interconnected-wallpaper-2560x1600.jpg);
+    display:flex;
+    justify-content:center;
+}
+
+#container{
+    display:flex;
+    width:80%;
+    height:100%;
+    flex-direction:column;
+
+}
+
+    .header{
+        width:100%;
+        margin-top:5px;
+        background-color: #412429;
+        border:2px solid #5e4e6f;
+        border-radius:10px;
+
+    }
+        .menu{
+            display:flex;
+            list-style-type:none;
+            margin:0;
+            padding:0;
+            flex-wrap:wrap;
+        }
+            .menu__itens{
+                margin:5px;
+                flex:1 1 100px;
+            }
+
+                .menu__link{
+                    text-decoration: none;
+                    color:#93c1e0;
+                }
+
+                .menu__link:hover{
+                    color:#b07f84;
+                    transition: .3s;
+                }
+    
+    #mural{
+        margin-top: 5px;
+        width: 100%;
+        height: 100%;
+        
+    }
+
+        .img{
+            width: 100%;
+            border:2px solid #5e4e6f;
+        }
+
+        .img2{
+            width:300px;
+            border:2px solid #5e4e6f;
+            margin-left:15px;
+            
+        }
+    
+    #conteudo{
+        width:100%;
+        height: 100%;
+        border: 2px solid #5e4e6f;
+        background-color: #412429;
+    }
+        #conteudo h1{
+            color:#93c1e0;
+        }
+
+        #conteudo p{
+            color:#93c1e0;
+
+        }
+
+        .end{
+            display: flex;
+            justify-content: flex-end;
+            margin-top: 5px;
+            margin-right: 15px;
+        }
